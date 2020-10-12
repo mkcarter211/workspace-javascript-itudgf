@@ -34,16 +34,39 @@
         <div class="practice">
             <h1> Varible and Arithemetic Operation</h1>
             <p> Practice on variables </p>
-
+            <script>
+              var a =1;
+              var b =3;
+              var c =a+b;
+              document.write(" c = "+c)
+            </script>
+          
 
         </div>
 
         <div class="practice">
             <h1> JavaScript Escape Sequence</h1>
             <p> Write an image to the page </p>
+            
+            <script>
+              document.write("<img src=\"img/die1.png\">")
+
+            </script>
 
 
             <p> Write a table to the page </p>
+            <table>
+              <tr><td>first</td><td>second</td></tr>
+            </table>
+            <script>
+              document.writeln("<table>")
+              document.writeln("<tr>")
+                document.writeln("<td> h1 </td>")
+              document.writeln("</tr>")
+              document.writeln("<table>")
+
+
+            </script>
 
         </div>
 
@@ -51,6 +74,8 @@
             <h1>Window and document object </h1>
             <p> Try alert, open, location, url </p>
             <script>
+              document.write(window.location.href);
+      
 
             </script>
 
@@ -72,7 +97,10 @@
             <p id="p2"> Paragraph Number two </p>
             <p id="p3"> Paragraph Number three </p>
             <p>Please write JavaScript code to change the content of each paragraph.​
-            <p>
+            <script>
+              document.getElementById('p1').innerHTML="<i>dkddf</i>"
+            </script>
+            
 
 
         </div>
