@@ -110,6 +110,14 @@
             <p> Please enter your numbers </p>
             <script>
                 function calculate() {
+                  //input
+                  var num1 = parseInt(document.getElementsByName('num1')[0].value);
+                  var num2 = parseInt(document.getElementsByName('num2')[0].value);
+                  //process
+                  console.log(num2);
+                  var ans = num1 + num2;
+                  //output
+                  document.getElementById('result').textcontent = " "+ ans;
 
 
                 }
